@@ -8,3 +8,7 @@ document.getElementById("bg-added").addEventListener("click" , function(){
 
 });
 
+document.getElementById("center-3rd").addEventListener("click", function(){
+    const friend = document.getElementById("3rd-friend");
+    friend.style.textAlign="center";
+});
